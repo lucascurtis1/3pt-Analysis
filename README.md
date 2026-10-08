@@ -6,7 +6,9 @@
 
 ## Python PORTION
 - Manipulated dataframes and dictionaries in order to cleanly access SAS data
-- Assigned custom point values as a metric for 3pt success
+- Assigned custom point values as a metric for 3pt success. Rules go as follows: 
+- +1 for above league average % of shots made, and +1 for above a 3pt shots made threshold, unique for positions. Each team's score is the sum of their 5 positions.
+- This emphasizes the importance of spacing in the nba, that is, having many good shooters spaced around the floor rather than a couple great shooters.
 - Done in Spyder^
 - Took point value dataframe from first python program, and did a pearson correlation coefficient, along with a scatter plot, testing the association between 3pt success and playoff wins.
 - Done in Jupyter Notebook^
@@ -29,8 +31,7 @@
 - NBA_Season_Stats -> csv files of both regular season and playoff player stats
 - NBA_Team_Playoff_Stats -> Contains Advanced Playoff Statistics and Playoff wins
 - Notebooks -> contains jupyter notebook file in which I carried out analysis
-- Positional_Data -> Contains csv of positional point value data, gathered from python scripts
+- Positional_Data -> Contains csv of positional 'point value' data, gathered from python scripts
 - SAS_Datasets_NBA3PT -> Contains sas7bdat files for moving playoff statistic data to python after sas portion is done.
 - SAS_Datasets_NBA3PT_RegularSeason -> Same as above, but for regular season.
 - 3pt_Playoff_Plot_21_22.pdf -> an example plot of what the sas portion delivers.
-- README.md -> well, this.
